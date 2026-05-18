@@ -5,11 +5,11 @@ export function Hero() {
     <section className={`${s.hero} wrap`}>
       <div className={`${s.eyebrow} fade-up`}>
         <span className={s.star}>✦</span>
-        <span>QA Automation Engineer</span>
+        <span>6+ Years QA Automation Engineer</span>
         <span className={s.sep}>·</span>
         <span>Melbourne · Naarm, AU</span>
         <span className={s.sep}>·</span>
-        <span>Open for work — 2026</span>
+        <span>AI-Orchestrated Workflow</span>
       </div>
 
       <div className={s.grid}>
