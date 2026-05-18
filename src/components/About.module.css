@@ -1,0 +1,96 @@
+.section {
+  padding: clamp(100px, 16vh, 160px) 0;
+  border-top: 1px solid var(--rule);
+  background: var(--bg-soft);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+@media (max-width: 880px) { .grid { grid-template-columns: 1fr; gap: 40px; } }
+
+.leadP {
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.4vw, 30px);
+  line-height: 1.4;
+  font-style: italic;
+  color: var(--ink);
+  margin: 0 0 22px;
+  max-width: 22ch;
+}
+.bodyP {
+  color: var(--ink-soft);
+  font-size: 17px;
+  line-height: 1.65;
+  max-width: 38ch;
+  margin: 0;
+}
+
+.card {
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  background: var(--bg-card);
+  padding: 28px;
+  display: flex; flex-direction: column; gap: 0;
+}
+.cardHead {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--ink-faint);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  display: flex; align-items: center; gap: 10px;
+}
+.cardHead::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+.iconRow { display: flex; flex-direction: column; gap: 10px; }
+.tile {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 16px;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--bg);
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.25s cubic-bezier(.2,.7,.2,1), border-color 0.2s, background 0.2s;
+}
+.tile:hover {
+  transform: translateY(-2px);
+  border-color: var(--ink-faint);
+  background: var(--bg-card);
+}
+.tile svg {
+  width: 22px; height: 22px;
+  flex-shrink: 0;
+  color: var(--ink-soft);
+  transition: color 0.25s;
+}
+.tile:hover svg { color: var(--accent); }
+.tileInfo { display: flex; flex-direction: column; gap: 1px; line-height: 1.2; min-width: 0; }
+.tileName {
+  font-family: var(--serif);
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+}
+.tileSub {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--ink-faint);
+  letter-spacing: 0.02em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tileGo {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--ink-faint);
+  transition: transform 0.25s, color 0.2s;
+  flex-shrink: 0;
+}
+.tile:hover .tileGo { transform: translate(3px, -3px); color: var(--accent); }
