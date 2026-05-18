@@ -30,7 +30,7 @@
 .pfMeta {
   display: flex; gap: 12px;
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 12px;
   color: var(--ink-soft);
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -63,7 +63,7 @@
 .pfBullets {
   list-style: none; padding: 0; margin: 8px 0 0;
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink-soft);
   display: flex; flex-direction: column; gap: 8px;
 }

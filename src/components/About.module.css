@@ -23,10 +23,11 @@
 .bodyP {
   color: var(--ink-soft);
   font-size: 17px;
-  line-height: 1.65;
-  max-width: 38ch;
-  margin: 0;
+  line-height: 1.7;
+  max-width: 54ch;
+  margin: 0 0 16px;
 }
+.bodyP:last-of-type { margin-bottom: 0; }
 
 .card {
   border: 1px solid var(--rule);
@@ -37,7 +38,7 @@
 }
 .cardHead {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 12px;
   color: var(--ink-faint);
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -78,7 +79,7 @@
 }
 .tileSub {
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 12px;
   color: var(--ink-faint);
   letter-spacing: 0.02em;
   overflow: hidden;

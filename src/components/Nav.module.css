@@ -35,7 +35,7 @@
   margin-left: auto;
   display: flex; gap: 28px;
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink-soft);
 }
 .links a {
@@ -58,7 +58,7 @@
   border: 1px solid var(--rule);
   color: var(--ink-soft);
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 12px;
   padding: 6px 10px;
   border-radius: 999px;
   cursor: pointer;

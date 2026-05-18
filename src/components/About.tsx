@@ -6,12 +6,23 @@ export function About() {
       <div className={`wrap ${s.grid}`}>
         <div>
           <div className="section-eyebrow">about</div>
-          <p className={s.leadP}>I&apos;m a QA engineer who likes test code as much as the product it tests.</p>
+          <p className={s.leadP}>Most QA engineers focus on writing and maintaining tests. I focus on building quality systems that scale.</p>
           <p className={s.bodyP}>
-            Based in Melbourne, recently arrived. Spent six years in QA — most recently two years at JiffyShirts
-            wiring Claude Code into a full STLC pipeline, before that three+ years at Shopee International across
-            seven SEA markets. I care about CI that doesn&apos;t lie, POMs that don&apos;t rot, and assertions
-            that actually mean something. Off-keyboard: coffee that&apos;s a bit too strong, cycling, the slow stuff.
+            Over the last 6+ years, I&apos;ve worked across manual testing, API automation, web automation, and QA process design.
+          </p>
+          <p className={s.bodyP}>
+            At Shopee, I worked on QA at scale for one of Southeast Asia&apos;s largest e-commerce platforms.
+            More recently at Jiffy.com, I designed and implemented AI-orchestrated QA workflows that supported the full STLC —
+            from ticket intake and test planning to Playwright execution, bug reporting, PR review, and test documentation.
+          </p>
+          <p className={s.bodyP}>
+            My core strength is combining strong QA fundamentals with automation architecture. I work hands-on with Playwright
+            and TypeScript, build reusable test frameworks, improve coverage across critical user flows, and create workflows
+            that help teams move faster without compromising reliability.
+          </p>
+          <p className={s.bodyP}>
+            I&apos;m currently based in Melbourne and open to QA Automation Engineer, SDET, and Quality Engineering roles —
+            especially in teams that value modern automation, practical AI adoption, and scalable quality systems.
           </p>
         </div>
 
