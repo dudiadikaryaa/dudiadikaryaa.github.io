@@ -16,7 +16,7 @@
 }
 .brand {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: -0.01em;
   display: flex; align-items: center; gap: 8px;
   user-select: none;
@@ -35,7 +35,7 @@
   margin-left: auto;
   display: flex; gap: 28px;
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 15px;
   color: var(--ink-soft);
 }
 .links a {
@@ -58,8 +58,8 @@
   border: 1px solid var(--rule);
   color: var(--ink-soft);
   font-family: var(--mono);
-  font-size: 12px;
-  padding: 6px 10px;
+  font-size: 14px;
+  padding: 6px 12px;
   border-radius: 999px;
   cursor: pointer;
   display: flex; align-items: center; gap: 6px;

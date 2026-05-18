@@ -23,7 +23,7 @@
 .ascii:hover { color: var(--accent); }
 .meta {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 14px;
   color: var(--ink-soft);
   text-align: right;
   letter-spacing: 0.02em;

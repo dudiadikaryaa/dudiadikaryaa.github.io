@@ -3,7 +3,7 @@
 }
 .eyebrow {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 15px;
   color: var(--ink-soft);
   margin-bottom: 44px;
   display: flex;
@@ -38,7 +38,7 @@
 
 .role {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 15px;
   color: var(--ink-soft);
   margin: 24px 0 0;
   display: flex;
@@ -95,7 +95,7 @@
 @keyframes blink { 50% { opacity: 0; } }
 .mantraAttr {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 14px;
   color: var(--ink-faint);
   margin-top: 14px;
   letter-spacing: 0.02em;
