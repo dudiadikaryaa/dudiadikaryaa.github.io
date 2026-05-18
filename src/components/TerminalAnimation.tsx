@@ -71,7 +71,7 @@ export function TerminalAnimation() {
       }
       const c = document.createElement('span')
       line.appendChild(c)
-      body.appendChild(line)
+      body!.appendChild(line)
       return c
     }
 
@@ -83,7 +83,7 @@ export function TerminalAnimation() {
             started = true; io.disconnect(); resolve()
           }
         }, { threshold: 0.25 })
-        io.observe(term)
+        io.observe(term!)
         setTimeout(() => { if (!started) { started = true; io.disconnect(); resolve() } }, 3000)
       })
 

@@ -1,11 +1,14 @@
 import type { Metadata } from 'next'
 import { Newsreader, JetBrains_Mono, Geist } from 'next/font/google'
 import './globals.css'
+import { Nav } from '@/components/Nav'
+import { ScrollProgress } from '@/components/ScrollProgress'
+import { KeyboardShortcuts } from '@/components/KeyboardShortcuts'
+import { FadeUpInit } from '@/components/FadeUpInit'
 
 const newsreader = Newsreader({
   subsets: ['latin'],
   axes: ['opsz'],
-  weight: ['300', '400', '500', '600'],
   style: ['normal', 'italic'],
   variable: '--font-serif',
   display: 'swap',
@@ -46,6 +49,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className={`${newsreader.variable} ${jetbrainsMono.variable} ${geist.variable}`}>
+        <ScrollProgress />
+        <KeyboardShortcuts />
+        <FadeUpInit />
+        <Nav />
         {children}
       </body>
     </html>
