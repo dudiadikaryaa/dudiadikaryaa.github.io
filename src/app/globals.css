@@ -123,6 +123,17 @@ section { position: relative; }
 }
 html[data-theme="dark"] .btn.primary:hover { color: #14130f; }
 
+/* ─── Section title ─── */
+.section-title {
+  font-family: var(--serif);
+  font-size: clamp(40px, 6vw, 76px);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: 0 0 56px;
+}
+.section-title .it { font-style: italic; color: var(--accent); font-weight: 400; }
+
 /* ─── Keyboard badge ─── */
 .kbd {
   font-family: var(--mono);

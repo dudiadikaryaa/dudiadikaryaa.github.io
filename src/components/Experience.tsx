@@ -57,6 +57,7 @@ export function Experience() {
   return (
     <section className={`${s.section} wrap`} id="experience">
       <div className="section-eyebrow">experience · 2019 — 2026</div>
+      <h2 className="section-title">Experience<span className="it">.</span></h2>
 
       <div className={s.list}>
         {ROLES.map((r) => (

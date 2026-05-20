@@ -6,6 +6,7 @@ export function About() {
       <div className={`wrap ${s.grid}`}>
         <div>
           <div className="section-eyebrow">about</div>
+          <h2 className="section-title">About<span className="it">.</span></h2>
           <p className={s.leadP}>Most QA engineers focus on writing and maintaining tests. I focus on building quality systems that scale.</p>
           <p className={s.bodyP}>
             Over the last 6+ years, I&apos;ve worked across manual testing, API automation, web automation, and QA process design.
