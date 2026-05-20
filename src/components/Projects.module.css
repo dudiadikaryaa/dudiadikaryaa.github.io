@@ -28,6 +28,18 @@
   box-shadow: 0 20px 40px -28px rgba(0,0,0,0.25);
 }
 
+.pfPreview {
+  margin: calc(-1 * clamp(28px, 3vw, 40px));
+  margin-bottom: 0;
+  line-height: 0;
+}
+.pfPreview video {
+  width: 100%;
+  display: block;
+  max-height: 280px;
+  object-fit: cover;
+}
+
 .pfMeta {
   display: flex; gap: 12px;
   font-family: var(--mono);

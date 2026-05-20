@@ -28,6 +28,9 @@ export function Projects() {
           </article>
 
           <article className={s.projectCard}>
+            <div className={s.pfPreview}>
+              <video autoPlay loop muted playsInline src="/videos/skill-manager.mp4" />
+            </div>
             <div className={s.pfMeta}>
               <span className={s.badge}>open source</span>
               <span>macOS · Electron</span>
@@ -46,6 +49,9 @@ export function Projects() {
           </article>
 
           <article className={s.projectCard}>
+            <div className={s.pfPreview}>
+              <video autoPlay loop muted playsInline src="/videos/naarm-adventure.mp4" />
+            </div>
             <div className={s.pfMeta}>
               <span className={s.badge}>personal project</span>
               <span>static site · Netlify</span>
